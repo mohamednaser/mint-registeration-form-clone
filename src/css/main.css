@@ -7,17 +7,29 @@
 
 body {
   background-color: #eceef1;
-  
+  font-family: Arial, Helvetica, sans-serif;  
 }
 
-a:link{
-    text-decoration: none;
+a {
+  text-align: center;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+div {
+  display: block;
+}
+
+p {
+  text-align: center;
+}
+
 
 /* container */
 
 .container {
-  background-color: red;
   width: 50%;
   height: 800px;
   margin: auto;
@@ -31,7 +43,7 @@ a:link{
 /* Header */
 
 .sign-in-button {
-  font-family: AvenirNextLTPro ,Arial, Helvetica, sans-serif;
+  font-family: AvenirNextLTPro, Arial, Helvetica, sans-serif;
   padding: 6px 20px 5px;
   font-size: 18px;
   color: white;
@@ -45,48 +57,103 @@ a:link{
   font-size: 13px;
 }
 
-.already-have-account{
+.already-have-account {
   font-size: 12px;
+  float: left;
 }
+
 .login-div {
-    float: right;
-    text-align: right;
-}
-.header-user-identity {
-  margin-top: 20px;
-  margin-right: 25px;
   float: right;
+}
+
+.header-user-identity {
+  height: 60px;
   width: 21%;
   padding-bottom: 5px;
+  float: right;
+  margin: 20px;
 }
 
 .fa-lock {
   padding-right: 10px;
 }
 
+/* Form section */
 
-/* Footer Section  */
-.footer-link-container{
-    list-style: none;
-    display: flex;
-    margin-left: 40%;
+form {
+  border: 1px solid black;
+  margin: auto;
+  width: 410px;
+  height: 520px;
+  background-color: white;
+  border-radius:10%;
+  border-radius: 1%;
+  border: 1px solid gray;
 }
 
+fieldset {
+  height: 500px;
+  border: none;
+}
 
-.footer-link-container li{
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+input {
+  padding-left: 22px;
+  width: 350px;
+  height: 2em;
+}
+
+.phone-warning {
+  font-size: 10px;
+  padding-right: 160px;
+  padding-bottom: 10px;
+}
+
+.learn-more {
+  font-size: 12px;
+  margin: 40%;
+}
+
+.form-description {
+  font-size: 14px;
+  margin: 0px 0px;
+}
+
+.create-account {
+
+}
+
+/* Footer Section  */
+.footer-link-container {
+  list-style: none;
+  display: flex;
+  margin-left: 40%;
+}
+
+.footer-link-container li {
   padding-left: 10px;
 }
 
-.footer-link-container li a{
-  color : #505050;
+.footer-link-container li a {
+  color: #505050;
 }
 
-.copy-right-message{
-  color : #505050;
+.copy-right-message {
+  color: #505050;
   margin-left: 20%;
 }
 
-.terms-and-conditions-message{
-  color : #505050;
+.terms-and-conditions-message {
+  color: #505050;
   margin-left: 30%;
 }
