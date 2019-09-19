@@ -1,20 +1,46 @@
 /* General rules */
 
 .header {
-    background-color: aqua;
-    width: 100%;
-    height: 90px;
+  background-color: #eceef1;
+  width: 100%;
+  height: 60px;
 }
 
-.continer {
-    background-color: red;
-    width: 33%;
-    height: 500px;
-    margin-left: 33%;
+.body {
+  background-color: #eceef1;
 }
 
-.footer{
-    background-color: yellow;
-    width: 100%;
-    height: 90px;
+.container {
+  background-color: red;
+  width: 50%;
+  height: 800px;
+  margin: auto;
+}
+
+.footer {
+  background-color: yellow;
+  width: 100%;
+  height: 90px;
+}
+
+/* Header */
+
+.sign-in-button {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.1px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #0077c5;
+  border-color: black;
+  border-radius: 5%;
+}
+
+.header-user-identity {
+  margin-top: 20px;
+  margin-right: 25px;
+  float: right;
+}
+
+.fa-lock {
+  padding-right: 10px;
 }
