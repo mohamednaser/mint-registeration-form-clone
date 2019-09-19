@@ -1,14 +1,20 @@
 /* General rules */
 
 .header {
-  background-color: #eceef1;
   width: 100%;
-  height: 60px;
+  height: 80px;
 }
 
-.body {
+body {
   background-color: #eceef1;
+  
 }
+
+a:link{
+    text-decoration: none;
+}
+
+/* container */
 
 .container {
   background-color: red;
@@ -18,7 +24,6 @@
 }
 
 .footer {
-  background-color: yellow;
   width: 100%;
   height: 90px;
 }
@@ -26,21 +31,62 @@
 /* Header */
 
 .sign-in-button {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0.1px 20px;
+  font-family: AvenirNextLTPro ,Arial, Helvetica, sans-serif;
+  padding: 6px 20px 5px;
   font-size: 18px;
   color: white;
+  border: 1px solid #4c4c4c;
   background-color: #0077c5;
-  border-color: black;
-  border-radius: 5%;
+  border-radius: 10%;
 }
 
+.forget-password-link {
+  color: #5a96d1;
+  font-size: 13px;
+}
+
+.already-have-account{
+  font-size: 12px;
+}
+.login-div {
+    float: right;
+    text-align: right;
+}
 .header-user-identity {
   margin-top: 20px;
   margin-right: 25px;
   float: right;
+  width: 21%;
+  padding-bottom: 5px;
 }
 
 .fa-lock {
   padding-right: 10px;
+}
+
+
+/* Footer Section  */
+.footer-link-container{
+    list-style: none;
+    display: flex;
+    margin-left: 40%;
+}
+
+
+.footer-link-container li{
+  padding-left: 10px;
+}
+
+.footer-link-container li a{
+  color : #505050;
+}
+
+.copy-right-message{
+  color : #505050;
+  margin-left: 20%;
+}
+
+.terms-and-conditions-message{
+  color : #505050;
+  margin-left: 30%;
 }
