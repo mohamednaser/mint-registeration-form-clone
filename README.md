@@ -16,6 +16,6 @@ How to setup a repo of this page on your local machine:
 
 Open your git bash and cd to the location you'd like to put your files the run the command below.
 
-git clone <a href= "https://github.com/mohamednaser/Embedding-Images-and-Video.git"> from this Repo </a> 
+git clone <a href= "https://github.com/mvsmdrs/displaying-and-inputting-data.git"> from this Repo </a> 
 
-Live version <a href="https://mohamednaser.github.io/Embedding-Images-and-Video/"> here </a>
+Live version <a href="https://mvsmdrs.github.io/displaying-and-inputting-data/"> here </a>
