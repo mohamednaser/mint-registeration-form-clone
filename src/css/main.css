@@ -38,6 +38,7 @@ a:link{
   border: 1px solid #4c4c4c;
   background-color: #0077c5;
   border-radius: 10%;
+  margin-top: -4px;
 }
 
 .forget-password-link {
@@ -47,11 +48,15 @@ a:link{
 
 .already-have-account{
   font-size: 12px;
+  float: right;
+  margin-right: 5px;
 }
+
 .login-div {
     float: right;
     text-align: right;
 }
+
 .header-user-identity {
   margin-top: 20px;
   margin-right: 25px;
