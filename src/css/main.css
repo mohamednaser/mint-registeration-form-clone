@@ -121,31 +121,6 @@ p {
   padding-inline-start: 0.1px;
 }
 
-#mint {
-  display: inline-block;
-  background-image: url(../imgs/mint-login-icons.png);
-  width: 70px;
-  height: 23px;
-  background-position: 310px 26px;
-}
-
-#quickbooks {
-  display: inline-block;
-  background-image: url(../imgs/mint-login-icons.png);
-  width: 130px;
-  height: 23px;
-  background-position: -110px 26px;
-}
-
-#turbotax {
-  display: inline-block;
-  background-image: url(../imgs/mint-login-icons.png);
-  width: 100px;
-  height: 23px;
-  margin-left: 10px;
-  background-position: 0.1px 26px;
-}
-
 form {
   margin: auto;
   width: 390px;
