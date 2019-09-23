@@ -8,6 +8,7 @@
 body {
   background-color: #eceef1;
   font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
 }
 
 a {
@@ -37,7 +38,6 @@ p {
 .footer {
   width: 100%;
   height: 90px;
-  padding-left: 50px;
 }
 
 /* Header */
@@ -70,10 +70,10 @@ p {
 
 .header-user-identity {
   height: 60px;
-  width: 21%;
-  padding-bottom: 5px;
+  width: 50%;
   float: right;
-  margin: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .fa-lock {
@@ -95,14 +95,17 @@ p {
 }
 
 /* Form section */
+.mint-logo {
+  display: block;
+  margin: auto;
+}
 
 #intuit-logo {
   display: block;
   background-image: url(../imgs/mint-login-icons.png);
   width: 118px;
   height: 35px;
-  margin-bottom: 15px;
-  margin-left: 42%;
+  margin: auto auto 15px auto;
 }
 
 .create-intuit-account {
@@ -110,42 +113,6 @@ p {
   margin: 20px 46px;
   padding-top: 16px;
   color: #4c4c4c;
-}
-
-.sub-logos {
-  display: flex;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  list-style: none;
-  margin-left: 28%;
-}
-
-.sub-logos li {
-  padding-left: 5px;
-}
-
-#mint {
-  display: inline-block;
-  background-image: url(../imgs/mint-login-icons.png);
-  width: 70px;
-  height: 23px;
-  background-position: 310px 26px;
-}
-
-#quickbooks {
-  display: inline-block;
-  background-image: url(../imgs/mint-login-icons.png);
-  width: 130px;
-  height: 23px;
-  background-position: -110px 26px;
-}
-
-#turbotax {
-  display: inline-block;
-  background-image: url(../imgs/mint-login-icons.png);
-  width: 100px;
-  height: 23px;
-  background-position: 0.1px 26px;
 }
 
 form {
@@ -228,26 +195,34 @@ input {
 
 /* Footer Section  */
 
-.footer-link-container {
-  list-style: none;
-  display: flex;
-  margin-left: 40%;
-}
-
-.footer-link-container li {
-  padding-left: 10px;
+.sign-up-footer-links {
+  margin: auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #505050;
+  margin-top: 2%;
+  font-size: 15px;
 }
 
 .footer-link-container li a {
   color: #505050;
 }
 
+.copy-rights {
+  margin-top: 0.5%;
+}
+
 .copy-right-message {
   color: #505050;
-  margin-left: 20%;
+  display: block;
+  font-size: 15px;
+  text-align: center;
 }
 
 .terms-and-conditions-message {
   color: #505050;
-  margin-left: 30%;
+  display: block;
+  font-size: 15px;
+  text-align: center;
 }

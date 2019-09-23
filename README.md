@@ -18,4 +18,4 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 git clone <a href= "https://github.com/mvsmdrs/displaying-and-inputting-data.git"> from this Repo </a> 
 
-Live version <a href="https://mvsmdrs.github.io/displaying-and-inputting-data/"> here </a>
+Live version <a href="https://mvsmdrs.github.io/displaying-and-inputting-data/"> here </a>.
